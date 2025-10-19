@@ -20,9 +20,6 @@ public class RegistroUsuarios {
         
         System.out.println("Ingrese el modo como va a viajar(1. A pie 2. En Bicicleta 3. En bus): ");
         int modoViaje = scanner.nextInt();
-        if(modoViaje > 3){
-          System.out.println("Modo de viaje invalido");
-        }
         
         System.out.println("¿Requiere de accesibilidad (true/false)? ");
         boolean accesibilidad = scanner.hasNextBoolean();
